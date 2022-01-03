@@ -4,7 +4,7 @@
 const nuevaString = "Hola";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = "2";
+const nuevoNum = 2;
 
 // Crea una variable booleana:
 const nuevoBool = true;
@@ -42,7 +42,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return y - x;
+  return x - y;
   
 }
 
@@ -189,7 +189,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = "nombre " + "apellido"
+  var combinado = nombre + " " + apellido
   return combinado;
 }
 
@@ -197,7 +197,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return `Hola` + `nombre ` + `!`;
+  return `Hola ` + nombre + `!`
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -239,9 +239,9 @@ function esVocal(letra){
     return "Dato incorrecto";
   }
     if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
-      return "Es una vocal"
+      return "Es vocal"
     }
-    return false;
+    return "Dato incorrecto";
   }
 
 
