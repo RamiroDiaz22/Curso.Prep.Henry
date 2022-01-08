@@ -14,8 +14,7 @@ body {
 				background: yellow;
 				padding: 50px;
 				border:  thick double black;
-				 -webkit-align-items: center;
-          align-items: center;
+				
 			}
 
 #spanId {
